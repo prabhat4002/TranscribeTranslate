@@ -1,12 +1,25 @@
-# React + Vite
+# 🎙️ TranscribeTranslate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Python-based application that performs audio-to-text transcription and translates subtitles into different languages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎧 Convert audio files to text using OpenAI Whisper
+- 🌍 Translate subtitles to multiple languages using `googletrans`
+- 📁 Automatically generates `.srt` subtitle files
+- 🧼 Cleans and formats the transcript for clarity
+- 🖥️ Simple CLI-based interaction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **OpenAI Whisper** – For accurate audio-to-text transcription  
+- **googletrans** – For translating subtitles into different languages  
+- **SRT** – For subtitle formatting and file generation  
+- **Pydub** – For audio preprocessing (e.g., conversion, trimming)
+
+---
+
